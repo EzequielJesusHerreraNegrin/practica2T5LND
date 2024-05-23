@@ -1,11 +1,12 @@
 import React from 'react'
+import style from './Navbar.module.css'
 
 const Navbar = (props) => {
   return (
     <>
-        <div className="container">
-            <div className="wrapper">
-                <img src="./images/logo.png" alt="Logo del Navbar" />
+        <div className={style.NavbarContainer}>
+            <div className={style.NavbarWrapper}>
+                <img src="./public/logo.png" alt="logo" />
             </div>
         </div>
     </>
