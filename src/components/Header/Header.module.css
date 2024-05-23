@@ -1,0 +1,16 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+p{
+    margin: 0;
+    background-color: #effbef;
+    color: #158231;
+    font-weight: 550;
+    font-size: 2rem;
+    height: 100%;
+    padding: 3.125rem;
+}

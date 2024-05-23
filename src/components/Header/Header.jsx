@@ -1,8 +1,10 @@
-import style from "./src/components/Header/Header.css"
+import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <p className={style.header}>Administrador de Pacientes de Veterinaria</p>
+    <div className="container">
+      <p className={styles.header}>Administrador de patinetes de Veterinaria</p>
+    </div>
   )
 }
 
